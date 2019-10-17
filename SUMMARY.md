@@ -10,4 +10,6 @@
 * [Array](basic-types/array.md)
 * [Tuple](basic-types/tuple.md)
 * [Enum](basic-types/enum.md)
+* [Any](basic-types/any.md)
+* [void](basic-types/void.md)
 
