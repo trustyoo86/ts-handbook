@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Typescript-Handbook](README.md)
 
 ## Basic Types
 
