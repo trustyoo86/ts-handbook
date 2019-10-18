@@ -17,3 +17,9 @@
 * [Object](basic-types/object.md)
 * [Type assertions](basic-types/type-assertions.md)
 
+## Variable Declarations
+
+* [변수선언](variable-declarations/undefined.md)
+* [Scoping rules](variable-declarations/scoping-rules.md)
+* [let 변수](variable-declarations/let.md)
+
