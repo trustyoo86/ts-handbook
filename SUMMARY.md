@@ -12,4 +12,8 @@
 * [Enum](basic-types/enum.md)
 * [Any](basic-types/any.md)
 * [void](basic-types/void.md)
+* [null and undefined](basic-types/null-and-undefined.md)
+* [Never](basic-types/never.md)
+* [Object](basic-types/object.md)
+* [Type assertions](basic-types/type-assertions.md)
 
