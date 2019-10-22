@@ -50,5 +50,60 @@ a++; // illegal to use 'a' before it's declared;
 let a;
 ```
 
+* block 범위 변수 \(let\)을 선언하기 전 캡쳐링이 가능합니다.
+* 선언하기전에 해당 함수를 호출하는것은 문제가 있습니다. es2015를 기준으로 하는 경우 해당 런타임은 오류를 발생시키나, typescript는 이를 허용하며, 오류로 보고하지 않습니다.
+
+```typescript
+function foo() {
+    // a변수를 캡쳐링 합니다.
+    return a;
+}
+
+// a가 선언되기 전에 foo를 선언하므로, 해당 내용은 문제가 있습니다.
+// 런타임시에 해당 에러를 발생시킬 것입니다.
+foo();
+
+let a;
+```
+
+#### 변수 재할당
+
+`var` 변수를 사용하는 경우, 이는 몇번이나 재할당을 하더라도 문제가 되지 않습니다.
+
+```typescript
+function f(x) {
+    var x;
+    var x;
+
+    if (true) {
+        var x;
+    }
+}
+```
+
+* f 함수에 선언된 `var x` 는 if  block 내의 `var x` 와 동일합니다. 이는 종종 에러를 발생시키는 요인입니다.
+* `let` 변수는 이런 경우 에러를 발생시킵니다.
+
+```typescript
+let x = 10;
+let x = 20; // error: 같은 scope에서 x를 재할당 할 수 없습니다.
+```
+
+* block 범위의 변수를 함수 범위의 변수로 선언할 수 없습니다. block 범위의 변수는 다른 block 내에서 선언하면 됩니다.
+
+```typescript
+function f(condition, x) {
+    if (condition) {
+        let x = 100;
+        return x;
+    }
+
+    return x;
+}
+
+f(false, 0); // returns '0'
+f(true, 0);  // returns '100'
+```
+
 
 
