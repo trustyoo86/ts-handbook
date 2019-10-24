@@ -27,6 +27,3 @@ prettySure.toFixed(); // Object타입에서 toFixed는 존재하지 않기 때�
 let list: any[] = [1, true, 'free'];
 list[1] = 100;
 ```
-
-
-

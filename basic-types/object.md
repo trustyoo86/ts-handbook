@@ -14,4 +14,3 @@ create("string"); // Error
 create(false); // Error
 create(undefined); // Error
 ```
-

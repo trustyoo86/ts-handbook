@@ -14,4 +14,3 @@ function warnUser(): void {
 let unusable: void = undefined;
 unusable = null;
 ```
-

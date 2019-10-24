@@ -13,4 +13,3 @@ let list: number[] = [1, 2, 3];
 ```typescript
 let list: Array<number> = [1, 2, 3];
 ```
-

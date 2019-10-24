@@ -20,4 +20,3 @@ let strLength: number = (someValue as string).length;
 ```
 
 * `jsx` 문법을 사용하는 경우 `as` syntax만 사용 가능합니다.
-
