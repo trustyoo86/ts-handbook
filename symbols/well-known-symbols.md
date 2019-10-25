@@ -1,6 +1,6 @@
 # Well-known Symbols
 
-* User-defined symbols 외에도 well-known 내장 symbols가 있습니다. Built-in symbols는 내부 언어 동작을 나타내는 데 사용됩니다.
+* User-defined symbols 외에도 well-known built-in symbols가 있습니다. Built-in symbols는 내부 언어 동작을 나타내는 데 사용됩니다.
 
 `well-known symbols` 목록:
 

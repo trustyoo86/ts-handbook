@@ -31,7 +31,7 @@ let obj = {
 console.log(obj[sym]); // "value"
 ```
 
-* Symbol을 계산된 속성 선언과 결합하여 객체 속성과 클래스 멤버를 선언할 수도 있습니다.
+* Symbol을 계산된 속성(computed property) 선언과 결합하여 객체 속성과 클래스 멤버를 선언할 수도 있습니다.
 
 ```typescript
 const getClassNameSymbol = Symbol();
