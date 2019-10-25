@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "foundy",
+      "name": "Foundy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14938920?v=4",
+      "profile": "http://foundy.io",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "ts-handbook",
+  "projectOwner": "trustyoo86",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
