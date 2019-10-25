@@ -5,7 +5,7 @@
 * `never` 타입의 경우 모든 데이터타입의 서브타입이 될 수 있으나, 모든 유형에 할당하지는 않습니다. 심지어 `any` 타입도 `never` 타입에 할당할 수 없습니다. 오직 `never` 타입 자체에 할당하는것만 가능합니다.
 
 ```typescript
-// 에러를 발생하는 function의 경
+// 에러를 발생하는 function의 경우
 function error(message: string): never {
     throw new Error(message);
 }
@@ -15,12 +15,9 @@ function fail() {
     return error("Something failed");
 }
 
-// infinity로 절대 해당 값에 도달하지 않는 경
+// infinity로 절대 해당 값에 도달하지 않는 경우
 function infiniteLoop(): never {
     while (true) {
     }
 }
 ```
-
-
-

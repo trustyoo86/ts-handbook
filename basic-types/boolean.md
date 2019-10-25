@@ -5,6 +5,3 @@
 ```typescript
 let isDone: boolean = false;
 ```
-
-
-

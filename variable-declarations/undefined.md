@@ -56,4 +56,3 @@ function f() {
 
 f(); // returns '2'
 ```
-

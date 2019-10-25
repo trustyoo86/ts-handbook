@@ -104,6 +104,3 @@ function f(condition, x) {
 f(false, 0); // returns '0'
 f(true, 0);  // returns '100'
 ```
-
-
-

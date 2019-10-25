@@ -1,7 +1,7 @@
 # Typescript-Handbook
 
-* typescript documentation을 번역한 글입니다.
-* [https://www.typescriptlang.org/docs/handbook](https://www.typescriptlang.org/docs/handbook) 항목별 글을 번역합니다.
+* TypeScript Documentation을 번역한 글입니다.
+* [Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html) 항목별 글을 번역합니다.
 
 #### contribution
 
@@ -10,4 +10,3 @@
 #### issue
 
 * 추가하시고 싶으신 내용 혹은 글 내용에 문제가 있는 경우 언제든 issue에 올려주시면 감사하겠습니다. :\) 
-

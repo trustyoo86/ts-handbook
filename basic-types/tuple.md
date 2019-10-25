@@ -8,7 +8,7 @@ let x: [string, number];
 // 초기화
 x = ["hello", 10]; // 정상 작동함
 // 에러의 경우
-x = [10, "hello"]; // 에러 발
+x = [10, "hello"]; // 에러 발생
 ```
 
 * 해당 요소에 접근할때도, 올바른 타입에 대한 function을 사용해야 합니다.
@@ -26,4 +26,3 @@ x[3] = "world";
 // 에러를 반환합니다. 5번째 원소는 [string, number] array에 포함되어 있지 않습니다.
 console.log(x[5].toString());
 ```
-

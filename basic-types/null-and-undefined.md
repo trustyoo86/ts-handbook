@@ -16,10 +16,3 @@ let n: null = null;
 * 만약 `string`, `null`, `undefined` 유형을 허용하고 싶다면, union type을 이용하여 `string | null | undefined` 를 명시해주면 됩니다.
 
 > 가능하면 `--strictNullChecks` 를 사용하는 것이 권장됩니다.
-
-
-
-
-
-
-
